@@ -1,0 +1,8 @@
+Internet
+Bash
+Unix'
+Vue
+Node
+Mongo
+React
+SLA

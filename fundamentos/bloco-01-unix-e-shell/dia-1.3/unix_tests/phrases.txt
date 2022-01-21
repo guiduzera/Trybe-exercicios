@@ -1,0 +1,6 @@
+carro
+moto
+avivao
+barco
+canoa
+bicicleta
