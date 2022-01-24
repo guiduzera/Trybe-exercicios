@@ -5,5 +5,9 @@ O que eu vou aprender na Trybe:
 - Git
 - HTML
 - CSS
+<<<<<<< HEAD
 java script
 phyton
+=======
+- soft skills
+>>>>>>> trybe-skills-updates
