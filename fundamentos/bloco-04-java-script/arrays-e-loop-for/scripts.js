@@ -99,3 +99,4 @@ for (let divisao of array) {
     console.log(divisao / 2);
 }
 
+
