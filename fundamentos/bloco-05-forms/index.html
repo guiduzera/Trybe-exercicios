@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aprendendo Forms</title>
+</head>
+<body>
+    <header>
+        <h1>HEADER DA PAGINA</h1>
+    </header>
+    <form action="" method="get" id="form-container">
+    <fieldset id="name-email-container">
+        <label for="input-name" >nome:
+            <input type="text" name="nome" id="input-name" placeholder="preencha seu nome aqui!" minlength="10" maxlength="40" required>
+        </label>
+        <br> <br>
+        <label for="input-email" >Email:
+            <input type="email" name="email" id="input-email" placeholder="preencha seu email aqui!" minlength="10" maxlength="50" required>
+        </label>
+    <p>Marque seu destino preferido</p>
+    <label for="radio-button1">
+        <input type="radio" id="radio-button1" name="destino-escolhido" value="Nt" required>Natal
+    </label>
+    <label for="radio-button2">
+        <input type="radio" id="radio-button2" name="destino-escolhido" value="Mt" required>Monte Alegre
+    </label>
+    <label for="radio-button3">
+        <input type="radio" id="radio-button3" name="destino-escolhido" value="Pn" required>Ponta Negra
+    </label>
+    <label for="radio-button4">
+        <input type="radio" id="radio-button4" name="destino-escolhido" value="Pf" required>Pau dos Ferros
+    </label>
+    <br>
+    <div id="text-container">
+        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <textarea name="texto" id="text-area" cols="30" rows="10" placeholder="Digite aqui sua resposta:" maxlength="500" required></textarea>
+    </div>
+    <p>Qual a melhor data para realizar sua viagem?</p>
+    <input type="date" id="input-date" name="data-da-viajem" required>
+    <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+    <label for="checkbox1"> yes
+        <input type="checkbox" name="concordo = true" id="checkbox1">
+    </label>
+    <label for="checkbox2"> no
+        <input type="checkbox" name="concordo = false" id="checkbox2">
+    </label>
+    </fieldset>
+    <br>
+    <button type="submit" id="botao-submit">
+        enviar
+    </button>
+    <button type="reset" id="reset-botton">
+        limpar respostas
+    </button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
