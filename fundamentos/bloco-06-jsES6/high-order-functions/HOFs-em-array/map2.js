@@ -61,9 +61,11 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-
-const novoArray = books.map((element) => {
-  return `${element.name} - ${element.genre} - ${element.author.name}`;
+const newObject = books.map((element) => {
+  return {
+    age: element.releaseYear - element.author.birthYear,
+    author: element.author.name,
+  };
 });
-console.log(novoArray);
+
+console.log(newObject.sort((a, b) => a.age - b.age));

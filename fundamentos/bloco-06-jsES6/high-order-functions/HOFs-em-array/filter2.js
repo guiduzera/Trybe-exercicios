@@ -60,7 +60,7 @@ const books = [
       releaseYear: 1928,
     },
   ];
-  
-  // Adicione o código do exercício aqui:
-const objectFilter = books.filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica');
-console.log(objectFilter);
+
+const novaArray = books.filter((element) => 2022 - element.releaseYear >= 60)
+
+console.log(novaArray.sort((a, b) => a.releaseYear - b.releaseYear));
