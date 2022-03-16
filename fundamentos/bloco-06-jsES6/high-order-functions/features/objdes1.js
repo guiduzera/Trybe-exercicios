@@ -17,5 +17,3 @@ const frase = ({ name, age, nationality, profession, squadInitials, squad }) => 
 };
 
 console.log(frase(novoObj));
-
-//Hi, my name is Maria, I'm 21 years old and I'm Brazilian. I work as a Software engineer and my squad is RLL-Rocket Landing Logic

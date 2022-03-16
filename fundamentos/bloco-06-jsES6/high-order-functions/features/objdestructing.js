@@ -7,3 +7,5 @@ const product = {
 };
 
 const { name: tv } = product
+
+console.log(tv)
