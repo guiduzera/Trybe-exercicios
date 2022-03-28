@@ -1,8 +1,8 @@
 import Pokedex from "./pokedex";
-import pokemons from "./data"
+// import pokemons from "./data"
 import './App.css';
 
-const exempalres = pokemons.map((element) => element.name);
+const exempalres = ['Charmander'];
 
 function App() {
   return (
