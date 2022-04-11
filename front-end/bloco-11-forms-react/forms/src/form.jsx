@@ -35,15 +35,17 @@ class Form extends React.Component {
         return (
             <fieldset className="form-container">
                 <h2>Meu formulario</h2>
-                <div className="form-group">
-                    <Info value={this.state.nome} handleState={this.handleState}/>
-                    <Email value={this.state.email} handleState={this.handleState}/>
-                    <Cpf value={this.state.CPF} handleState={this.handleState}/>
-                    <Endereco value={this.state.endereco} handleState={this.handleState}/>
-                    <Cidade value={this.state.cidade} handleState={this.handleState}/>
-                    <Estado value={this.state.estado} handleState={this.handleState}/>
-                    <Radio value={this.state.tipo} handleState={this.handleState}/>
-                </div>
+                <form>
+                    <div className="form-group">
+                        <Info value={this.state.nome} handleState={this.handleState}/>
+                        <Email value={this.state.email} handleState={this.handleState}/>
+                        <Cpf value={this.state.CPF} handleState={this.handleState}/>
+                        <Endereco value={this.state.endereco} handleState={this.handleState}/>
+                        <Cidade value={this.state.cidade} handleState={this.handleState}/>
+                        <Estado value={this.state.estado} handleState={this.handleState}/>
+                        <Radio value={this.state.tipo} handleState={this.handleState}/>
+                    </div>
+                </form>
             </fieldset>
         );
     }
